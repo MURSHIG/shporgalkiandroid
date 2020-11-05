@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name" translatable="false">Шпоргалки</string>
+    <string name="info" translatable="false">Информатика</string>
+    <string name="math" translatable="false">Математика</string>
+    <string name="chim" translatable="false">Химия</string>
+    <string name="fact" translatable="false">факториал</string>
+    <string name="step" translatable="false">степень какого числа</string>
+    <string name="login_failed" translatable="false">"Неверный пароь!"</string>
+    <string name="inbutton" translatable="false">Готово!</string>
+    <string name="inpassfield" translatable="false">Введите пароль</string>
+    <string name="find">Найти</string>
+    <string name="step1">В какую</string>
+    <string name="step2">Степень</string>
+    <string name="elem">Какой элемент?</string>
+    <string name="tento2">10в2</string>
+    <string name="tento16">10в16</string>
+    <string name="tento8">10в8</string>
+    <string name="twoto10">2в10</string>
+    <string name="twoto8">2в8</string>
+    <string name="twoto16">2в16</string>
+    <string name="eightto2">8в2</string>
+    <string name="eightto10">8в10</string>
+    <string name="eightto16">8в16</string>
+    <string name="sixteento2">16в2</string>
+    <string name="sixteento8">16в8</string>
+    <string name="sixteento10">16в10</string>
+</resources>
