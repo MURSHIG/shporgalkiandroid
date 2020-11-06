@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class ChimActivity extends AppCompatActivity {
@@ -352,11 +353,11 @@ public class ChimActivity extends AppCompatActivity {
         }
 //        Если ничего не вписано
         else if (elem.getText().toString().equals("")){
-            text.setText("Введите обозначение элемента!");
+            Toast.makeText(getApplicationContext(),"Введите элемент!",Toast.LENGTH_LONG).show();
         }
 //        Если элемент не существует
         else {
-            text.setText("Элемент не существует!");
+            Toast.makeText(getApplicationContext(),"Элемента не существует",Toast.LENGTH_LONG).show();
         }
 
 

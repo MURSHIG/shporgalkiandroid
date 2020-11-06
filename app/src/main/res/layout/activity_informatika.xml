@@ -13,8 +13,8 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="416dp"
         android:backgroundTint="@color/red"
-        android:text="@string/sixteento8"
         android:onClick="onClick16to8"
+        android:text="@string/sixteento8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,8 +25,8 @@
         android:layout_marginTop="416dp"
         android:layout_marginEnd="36dp"
         android:backgroundTint="@color/red"
-        android:text="@string/sixteento2"
         android:onClick="onClick16to2"
+        android:text="@string/sixteento2"
         app:layout_constraintEnd_toStartOf="@+id/tento16"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,8 +37,8 @@
         android:layout_marginTop="416dp"
         android:layout_marginEnd="48dp"
         android:backgroundTint="@color/red"
-        android:text="@string/sixteento10"
         android:onClick="onClick16to10"
+        android:text="@string/sixteento10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -49,8 +49,8 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="340dp"
         android:backgroundTint="@color/red"
-        android:text="@string/eightto2"
         android:onClick="onClick8to2"
+        android:text="@string/eightto2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -61,8 +61,8 @@
         android:layout_marginTop="340dp"
         android:layout_marginEnd="36dp"
         android:backgroundTint="@color/red"
-        android:text="@string/eightto16"
         android:onClick="onClick8to16"
+        android:text="@string/eightto16"
         app:layout_constraintEnd_toStartOf="@+id/tento16"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,8 +73,8 @@
         android:layout_marginTop="340dp"
         android:layout_marginEnd="48dp"
         android:backgroundTint="@color/red"
-        android:text="@string/eightto10"
         android:onClick="onClick8to10"
+        android:text="@string/eightto10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -85,8 +85,8 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="256dp"
         android:backgroundTint="@color/red"
-        android:text="@string/twoto10"
         android:onClick="onClicktwoto10"
+        android:text="@string/twoto10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -97,8 +97,8 @@
         android:layout_marginTop="256dp"
         android:layout_marginEnd="36dp"
         android:backgroundTint="@color/red"
-        android:text="@string/twoto8"
         android:onClick="onClicktwoto8"
+        android:text="@string/twoto8"
         app:layout_constraintEnd_toStartOf="@+id/tento16"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -109,8 +109,8 @@
         android:layout_marginTop="256dp"
         android:layout_marginEnd="48dp"
         android:backgroundTint="@color/red"
-        android:text="@string/twoto16"
         android:onClick="onClicktwoto16"
+        android:text="@string/twoto16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -145,8 +145,8 @@
         android:layout_marginTop="168dp"
         android:layout_marginEnd="36dp"
         android:backgroundTint="@color/red"
-        android:text="@string/tento8"
         android:onClick="onClicktento8"
+        android:text="@string/tento8"
         app:layout_constraintEnd_toStartOf="@+id/tento16"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -157,8 +157,8 @@
         android:layout_marginTop="168dp"
         android:layout_marginEnd="48dp"
         android:backgroundTint="@color/red"
-        android:text="@string/tento16"
         android:onClick="onClicktento16"
+        android:text="@string/tento16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -10,10 +10,10 @@
         android:id="@+id/inbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginBottom="376dp"
-        android:text="@string/inbutton"
+        android:layout_marginStart="148dp"
+        android:layout_marginBottom="340dp"
         android:onClick="signing"
+        android:text="@string/inbutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

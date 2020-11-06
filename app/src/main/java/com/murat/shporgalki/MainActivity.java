@@ -32,4 +32,8 @@ public class MainActivity extends AppCompatActivity {
         Intent info = new Intent(MainActivity.this,InformatikaActivity.class);
         startActivity(info);
     }
+ public void Prikoli(View view){
+        Intent prikoli = new Intent(MainActivity.this,FunnyActivity.class);
+        startActivity(prikoli);
+ }
 }

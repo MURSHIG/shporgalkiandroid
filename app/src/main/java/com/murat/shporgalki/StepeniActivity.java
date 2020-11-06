@@ -7,8 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-
-
+import android.widget.Toast;
 
 
 public class StepeniActivity extends AppCompatActivity {
@@ -16,6 +15,7 @@ public class StepeniActivity extends AppCompatActivity {
     EditText num1;
     EditText num2;
     TextView result;
+    Toast empty;
 //    Стандарт
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,7 @@ public class StepeniActivity extends AppCompatActivity {
         num1 = (EditText)findViewById(R.id.firstnum);
         num2 = (EditText)findViewById(R.id.secondnum);
         result = (TextView)findViewById(R.id.res);
+        empty = Toast.makeText(getApplicationContext(),"Введите оба числа!",Toast.LENGTH_LONG);
     }
 //    Кнопка поиска степени
     public void findstepen(View view){
@@ -39,7 +40,7 @@ public class StepeniActivity extends AppCompatActivity {
 
        }
        else
-           result.setText("Введите числа!");
+           empty.show();
     }
     public void onclickback(View view){
         Intent back = new Intent(StepeniActivity.this,MathActivity.class);

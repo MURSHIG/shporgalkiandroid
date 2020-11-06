@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.math.BigInteger;
 
@@ -43,6 +44,6 @@ public class FactorialActivity extends AppCompatActivity {
            text.setText(String.valueOf(result));
        }
        else
-           text.setText("Введите число!");
+            Toast.makeText(getApplicationContext(),"Введите число!",Toast.LENGTH_SHORT).show();
     }
 }

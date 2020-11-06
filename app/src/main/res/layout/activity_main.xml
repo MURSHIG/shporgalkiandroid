@@ -8,42 +8,59 @@
 
     <Button
         android:id="@+id/inforamika"
-        android:layout_width="180dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="47dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="18dp"
         android:layout_marginTop="110dp"
-        android:layout_marginEnd="276dp"
-        android:layout_marginBottom="573dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="8dp"
         android:onClick="InfoClick"
         android:text="@string/info"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.319"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/math"
-        android:layout_width="180dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="212dp"
-        android:layout_marginTop="108dp"
-        android:text="@string/math"
-        android:onClick="mathclick"
+        app:layout_constraintBottom_toTopOf="@+id/chemistry"
+        app:layout_constraintEnd_toStartOf="@+id/math"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/chemistry"
-        android:layout_width="183dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="504dp"
-        android:text="@string/chim"
-        android:onClick="chimclick"
+        android:id="@+id/math"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="mathclick"
+        android:text="@string/math"
+        app:layout_constraintBottom_toTopOf="@+id/math3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/inforamika"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/math3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="502dp"
+        android:onClick="Prikoli"
+        android:text="Приколы"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/chemistry"
+        app:layout_constraintTop_toBottomOf="@+id/math" />
+
+    <Button
+        android:id="@+id/chemistry"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="507dp"
+        android:onClick="chimclick"
+        android:text="@string/chim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/math3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inforamika" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
