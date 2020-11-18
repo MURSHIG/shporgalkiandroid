@@ -12,8 +12,9 @@ import android.widget.Toast;
 
 
 public class ChimActivity extends AppCompatActivity {
-    //ЭЛЕМЕНТЫ
 
+
+    //ЭЛЕМЕНТЫ
     public float H = 1.00f;
     public float He = 4.00f;
     public float Li = 6.94f;
@@ -99,6 +100,7 @@ public class ChimActivity extends AppCompatActivity {
 //   Стандартная функция которая выполняется при запуске Активвити
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.Theme_Design_NoActionBar);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chim);
 //        Обозначение кнопок

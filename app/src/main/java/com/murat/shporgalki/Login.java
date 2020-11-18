@@ -17,6 +17,7 @@ public class Login extends AppCompatActivity {
 //   Стадарт
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.Theme_Design_NoActionBar);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pass);
         pass = (EditText)findViewById(R.id.Password);

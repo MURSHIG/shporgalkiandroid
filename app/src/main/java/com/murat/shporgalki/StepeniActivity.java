@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+
 public class StepeniActivity extends AppCompatActivity {
 //Инициализация кнопок
     EditText num1;
@@ -19,6 +20,7 @@ public class StepeniActivity extends AppCompatActivity {
 //    Стандарт
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.Theme_Design_NoActionBar);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stepeni);
         num1 = (EditText)findViewById(R.id.firstnum);

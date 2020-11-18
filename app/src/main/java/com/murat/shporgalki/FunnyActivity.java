@@ -13,6 +13,7 @@ public class FunnyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.Theme_Design_NoActionBar);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_funny);
     }

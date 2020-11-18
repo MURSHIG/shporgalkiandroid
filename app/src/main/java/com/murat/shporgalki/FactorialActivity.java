@@ -18,6 +18,7 @@ public class FactorialActivity extends AppCompatActivity {
 //Стандарт
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.Theme_Design_NoActionBar);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_factorial);
 //        Текстовые поля

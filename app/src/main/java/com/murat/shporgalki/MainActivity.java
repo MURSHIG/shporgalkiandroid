@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     Button mathem;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.Theme_Design_NoActionBar);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mathem = (Button)findViewById(R.id.math);
