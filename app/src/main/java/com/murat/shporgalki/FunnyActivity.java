@@ -38,4 +38,8 @@ public class FunnyActivity extends AppCompatActivity {
         Intent leva = new Intent(Intent.ACTION_VIEW,Uri.parse("https://youtu.be/vs1mXnWuHd8"));
         startActivity(leva);
     }
+    public void peppa (View view) {
+        Intent peppa = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.youtube.com/watch?v=zAfCEJZDOPI"));
+        startActivity(peppa);
+    }
 }

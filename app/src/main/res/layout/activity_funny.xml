@@ -52,13 +52,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/polizei3"
+        android:id="@+id/polizei4"
         android:layout_width="150dp"
         android:layout_height="65dp"
         android:layout_marginStart="188dp"
         android:layout_marginTop="188dp"
         android:onClick="levapolka"
         android:text="leva`s polka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/polizei3"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="276dp"
+        android:onClick="peppa"
+        android:text="Пеппа"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

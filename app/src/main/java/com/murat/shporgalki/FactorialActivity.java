@@ -34,7 +34,7 @@ public class FactorialActivity extends AppCompatActivity {
 //Нажатие на кнопку
     public void Onclickfind(View view) {
 //       Если поле не пустое начинается поиск
-        if (!number.getText().toString().equals("")) {
+        if (!number.getText().toString().equals("") && Integer.parseInt(number.getText().toString()) <= 20000) {
            //Факториал
            int n1 = Integer.parseInt(number.getText().toString());
            BigInteger result = BigInteger.ONE;
@@ -44,6 +44,9 @@ public class FactorialActivity extends AppCompatActivity {
            }
            text.setText(String.valueOf(result));
        }
+        else  if (Integer.parseInt(number.getText().toString()) > 20000) {
+            Toast.makeText(getApplicationContext(),"Числа больше 20001 не воспринимаются так как они слишком большие!",Toast.LENGTH_SHORT).show();
+        }
        else
             Toast.makeText(getApplicationContext(),"Введите число!",Toast.LENGTH_SHORT).show();
     }
