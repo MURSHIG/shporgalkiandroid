@@ -24,4 +24,8 @@
     <string name="sixteento2">16в2</string>
     <string name="sixteento8">16в8</string>
     <string name="sixteento10">16в10</string>
+    <string name="title_activity_mainbottom">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

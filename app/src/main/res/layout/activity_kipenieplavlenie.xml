@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KipenieplavlenieActivity">
+
+    <EditText
+        android:id="@+id/m"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Масса"
+        android:inputType="numberDecimal"
+        app:layout_constraintBaseline_toBaselineOf="@+id/t2"
+        app:layout_constraintEnd_toStartOf="@+id/t2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="t1"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/stepen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/C"
+        app:layout_constraintTop_toBottomOf="@+id/t2" />
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="55dp"
+        android:ems="10"
+        android:hint="t2"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/t1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/m"
+        app:layout_constraintTop_toBottomOf="@+id/t_kip" />
+
+    <EditText
+        android:id="@+id/C"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="114dp"
+        android:ems="10"
+        android:hint="С без степени"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/stepen"
+        app:layout_constraintEnd_toStartOf="@+id/t1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/t2" />
+
+    <EditText
+        android:id="@+id/stepen"
+        android:layout_width="238dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="38dp"
+        android:ems="10"
+        android:hint="Степень(уже перемноженная)"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1" />
+
+    <EditText
+        android:id="@+id/t_kip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="t кипение (плавление)"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/t2"
+        app:layout_constraintEnd_toEndOf="@+id/m"
+        app:layout_constraintStart_toEndOf="@+id/m"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="88dp"
+        android:text="Кипение"
+        android:onClick="kipenie"
+        app:layout_constraintBottom_toTopOf="@+id/reskipPlav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/stepen" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="dovdotemp"
+        android:text="Нагревание"
+        app:layout_constraintBottom_toBottomOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/reskipPlav"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="57dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
